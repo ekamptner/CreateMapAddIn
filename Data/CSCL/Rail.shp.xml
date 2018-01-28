@@ -1,0 +1,404 @@
+<metadata><idinfo><citation><citeinfo><pubdate>20160229</pubdate><title>RAILROAD</title><edition>2016 Planimetrics</edition><geoform>vector digital data</geoform></citeinfo></citation><descript><abstract>This feature class contains the following Railroad features:  
+
+RAILROAD - Visible and Hidden Railroad centerlines.
+
+ELEVATED RAILROAD - Elevated Railroad centerlines.
+
+EMBANKMENT RAILROAD- Embankment Railroad centerlines.
+
+VIADUCT CENTERLINE- Viaduct Railroad centerlines.
+
+DEPRESSION RAILROAD- Open Cut Depression Railroad centerlines.
+
+RAILWAY FENCE- Railroad Fencing centerlines.
+
+ABANDONED RAILROAD- Abandoned Railroad centerlines.
+
+Digital planimetrics are derived using the imagery products delivered with the 2014 New York Statewide Flyover (see Summary for specific flight dates), which includes raw imagery collected to support the generation of 0.5 Ft Ground Sample Distance (GSD) natural color imagery. The images were captured with 80% forward lap and side lap to support 1”=100’ mapping and meet the distortion free requirements within New York City. Planimetrics are developed to meet American Society for Photogrammetry and Remote Sensing (ASPRS) Class 1 (one) horizontal mapping standards and ASPRS vertical Class 2 (two) accuracy specifications. Planimetrics are delivered via an ESRI geodatabase in New York State Plane Coordinates, Long Island East Zone, NAD83, US foot.</abstract><purpose>A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality of the base data which includes the orthophotography and planimetrics, collectively known as NYC Map. This base is the foundation upon which virtually all other GIS information within the City of New York is built. Ensuring its completeness and accuracy is fundamental to the Group’s core mission. 
+
+For this dataset, the source imagery was captured on the following dates:
+
+Manhattan - June 24, 2014
+
+The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014
+
+Final delivery of all imagery – April 10, 2015
+
+Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.</purpose></descript><spdom><bounding><westbc>-74.254338</westbc><eastbc>-73.725548</eastbc><northbc>40.915501</northbc><southbc>40.511999</southbc></bounding></spdom><keywords><theme><themekey>Planimetric</themekey><themekey>Basemap</themekey><themekey>Landbase</themekey><themekey>Train Tracks</themekey><themekey>Railroad</themekey><themekey>Rail</themekey><themekey>Train</themekey><themekey>NYCMap</themekey><themekey>structure</themekey><themekey>imageryBaseMapsEarthCover</themekey><themekey>transportation</themekey></theme><theme><themekey>Planimetric</themekey><themekey>Basemap</themekey><themekey>Landbase</themekey><themekey>Train Tracks</themekey><themekey>Railroad</themekey><themekey>Rail</themekey><themekey>Train</themekey><themekey>NYCMap</themekey><themekey>structure</themekey><themekey>imageryBaseMapsEarthCover</themekey><themekey>transportation</themekey></theme></keywords><accconst>None</accconst><useconst>Limited to use defined by the Department of Information Technology and Telecommunication, City of New York</useconst><ptcontac><cntinfo><cntorgp><cntorg>DoITT - City of New York</cntorg><cntper>Colin Reilly</cntper></cntorgp><cntpos>Director, Citywide GIS</cntpos><cntaddr><addrtype>mailing</addrtype><address>2 Metrotech Center</address><city>Brooklyn</city><state>New York</state><postal>11201</postal><country>UNITED STATES</country></cntaddr><cntemail>creilly@doitt.nyc.gov</cntemail></cntinfo></ptcontac><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><esriterm Name="Rail1"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">TRUE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><planar><planci><plance>coordinate pair</plance><coordrep><absres>0.0003280833333333335</absres><ordres>0.0003280833333333335</ordres></coordrep><plandu>foot_us</plandu></planci></planar><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed Name="Rail1" xmlns=""><enttyp><enttypl Sync="TRUE">Rail1</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr xmlns=""><attrlabl>SHAPE</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr xmlns=""><attrlabl>NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Name of Railroad</attrdef></attr><attr xmlns=""><attrlabl>SOURCE_ID</attrlabl><attalias Sync="TRUE">SOURCE_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Unique Feature Identification Number.</attrdef></attr><attr xmlns=""><attrlabl>STATUS</attrlabl><attalias Sync="TRUE">STATUS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Attribute LookUp Table:  
+
+New- Newly collected in 2014
+Updated- Feature has changed in 2014 collection
+Unchanged- No change in 2014 collection
+</attrdef></attr><subtype><stname Sync="TRUE">Embankment railroad</stname><stcode Sync="TRUE">2420</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRREmbarkment</domname><domdesc Sync="TRUE">Domain for Embarkment Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">Railroad</stname><stcode Sync="TRUE">2400</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRRRailroad</domname><domdesc Sync="TRUE">Domain for Railroad (sub feature)</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">Viaduct centerline</stname><stcode Sync="TRUE">2430</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRRViaductCenterline</domname><domdesc Sync="TRUE">Domain for Viaduct Centerline Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><attr xmlns=""><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><subtype><stname Sync="TRUE">Railway fence</stname><stcode Sync="TRUE">2450</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRRFence</domname><domdesc Sync="TRUE">Domain for Railway Fence</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">Elevated railroad</stname><stcode Sync="TRUE">2410</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRRElevated</domname><domdesc Sync="TRUE">Domain for Elevated Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">Abandoned railroad</stname><stcode Sync="TRUE">2465</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRRAbandoned</domname><domdesc Sync="TRUE">Domain for Abandoned Railraod</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><attr xmlns=""><attrlabl Sync="TRUE">FEAT_CODE</attrlabl><attalias Sync="FALSE">FEATURE_CODE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Attribute LookUp Table:
+
+2400- Railroad
+2410- Elevated railroad
+2420- Embankment railroad
+2430- Viaduct centerline
+2440- Open cut depression railroad
+2450- Railway fence
+2465- Abandoned railroad</attrdef></attr><attr xmlns=""><attrlabl Sync="TRUE">SUB_CODE</attrlabl><attalias Sync="FALSE">SUB_FEATURE_CODE</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Attribute LookUp Table:  
+
+240000- Railroad
+240010- Railroad, Hidden
+241000- Elevated Railroad
+242000- Embankment railroad
+243000- Viaduct centerline
+244000- Open cut depression railroad
+245000- Railway fence
+246500- Abandoned railroad</attrdef></attr><subtype><stname Sync="TRUE">Open cut depression railroad</stname><stcode Sync="TRUE">2440</stcode><stfield><stfldnm Sync="TRUE">FEATURE_CODE</stfldnm><stflddv Sync="TRUE">2400</stflddv><stflddd><domname Sync="TRUE">dRailroad</domname><domdesc Sync="TRUE">Domain for Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">SmallInteger</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">SUB_FEATURE_CODE</stfldnm><stflddd><domname Sync="TRUE">dRROpenCutDepress</domname><domdesc Sync="TRUE">Domain for Open Cut Depression Railroad</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">Integer</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">STATUS</stfldnm><stflddd><domname Sync="TRUE">dStatus</domname><domdesc Sync="TRUE">Domain for Feature Update Status</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Default value</splttype><domowner Sync="TRUE"/><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><attr xmlns=""><attrlabl Sync="TRUE">SHAPE_Leng</attrlabl><attalias Sync="TRUE">SHAPE_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo><distinfo><distliab>See access and use constraints information.</distliab></distinfo><metainfo><metd>20160229</metd><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc></metainfo><Esri><DataProperties><itemProps><itemName Sync="TRUE">Rail1</itemName><nativeExtBox><westBL Sync="TRUE">913954.848912</westBL><eastBL Sync="TRUE">1060104.578922</eastBL><southBL Sync="TRUE">125929.910592</southBL><northBL Sync="TRUE">272819.920289</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemLocation><linkage Sync="TRUE">file://\\DESKTOP-U1ALB4T\C$\Users\Erola\Documents\Penn State\GEOG 489\TermProject\Data\GIS\Rail1.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,984250.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-74.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,40.66666666666666],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,41.03333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,40.16666666666666],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2263]]&lt;/WKT&gt;&lt;XOrigin&gt;-120039300&lt;/XOrigin&gt;&lt;YOrigin&gt;-96540300&lt;/YOrigin&gt;&lt;XYScale&gt;37212589.015695661&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102718&lt;/WKID&gt;&lt;LatestWKID&gt;2263&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><copyHistory><copy source="C:\Users\Erola\Documents\Penn State\GEOG 489\TermProject\Data\GIS\Rail" dest="\\DESKTOP-U1ALB4T\C$\Users\Erola\Documents\Penn State\GEOG 489\TermProject\Data\GIS\Original\Rail" date="20170312" time="17170200"></copy></copyHistory></DataProperties><SyncDate>20170312</SyncDate><SyncTime>19191400</SyncTime><ModDate>20170312</ModDate><ModTime>19191400</ModTime><ArcGISFormat>1.0</ArcGISFormat><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><ArcGISProfile>FGDC</ArcGISProfile><SyncOnce>FALSE</SyncOnce></Esri><mdLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdDateSt Sync="FALSE">20160229</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><dataIdInfo><idCitation xmlns=""><resTitle>RAILROAD</resTitle><date><pubDate>2016-02-29T00:00:00</pubDate></date><resEd>2016 Planimetrics</resEd><presForm xmlns=""><PresFormCd value="005"/></presForm><presForm xmlns=""><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P STYLE="margin:0 0 11 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;This feature class contains the following Railroad features:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 11 0;"&gt;&lt;SPAN&gt;RAILROAD - Visible and Hidden Railroad centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 11 0;"&gt;&lt;SPAN&gt;ELEVATED RAILROAD - Elevated Railroad centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 11 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;EMBANKMENT RAILROAD&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;- Embankment Railroad centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 11 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;VIADUCT CENTERLINE&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;- Viaduct Railroad centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 11 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;DEPRESSION RAILROAD&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;- Open Cut Depression Railroad centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 7 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;RAILWAY FENCE&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;- Railroad Fencing centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 7 0;"&gt;&lt;SPAN&gt;&lt;SPAN&gt;ABANDONED RAILROAD&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN&gt;- Abandoned Railroad centerlines.&lt;/SPAN&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 7 0;"&gt;&lt;SPAN /&gt;&lt;/P&gt;&lt;P STYLE="margin:0 0 7 0;"&gt;&lt;SPAN&gt;Digital planimetrics are derived using the imagery products delivered with the 2014 New York Statewide Flyover (see Summary for specific flight dates), which includes raw imagery collected to support the generation of 0.5 Ft Ground Sample Distance (GSD) natural color imagery. The images were captured with 80% forward lap and side lap to support 1”=100’ mapping and meet the distortion free requirements within New York City. Planimetrics are developed to meet American Society for Photogrammetry and Remote Sensing (ASPRS) Class 1 (one) horizontal mapping standards and ASPRS vertical Class 2 (two) accuracy specifications. Planimetrics are delivered via an ESRI geodatabase in New York State Plane Coordinates, Long Island East Zone, NAD83, US foot.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality of the base data which includes the orthophotography and planimetrics, collectively known as NYC Map. This base is the foundation upon which virtually all other GIS information within the City of New York is built. Ensuring its completeness and accuracy is fundamental to the Group’s core mission. 
+
+For this dataset, the source imagery was captured on the following dates:
+
+Manhattan - June 24, 2014
+
+The Bronx, Brooklyn, Queens and Staten Island  - April 1st through April 25th, 2014
+
+Final delivery of all imagery – April 10, 2015
+
+Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016. 
+</idPurp><idPoC><rpIndName>Colin Reilly</rpIndName><rpOrgName>DoITT - City of New York</rpOrgName><rpPosName>Director, Citywide GIS</rpPosName><rpCntInfo><cntAddress addressType="postal"><delPoint>2 Metrotech Center</delPoint><city>Brooklyn</city><adminArea>New York</adminArea><postCode>11201</postCode><country>US</country><eMailAdd>creilly@doitt.nyc.gov</eMailAdd></cntAddress></rpCntInfo><role><RoleCd value="007"/></role></idPoC><themeKeys><keyword>Planimetric</keyword><keyword>Basemap</keyword><keyword>Landbase</keyword><keyword>Train Tracks</keyword><keyword>Railroad</keyword><keyword>Rail</keyword><keyword>Train</keyword><keyword>NYCMap</keyword></themeKeys><themeKeys><thesaName><resTitle>ISO 19115 Topic Categories</resTitle></thesaName><keyword>structure</keyword><keyword>imageryBaseMapsEarthCover</keyword><keyword>transportation</keyword></themeKeys><searchKeys><keyword>structure</keyword><keyword>Planimetric</keyword><keyword>Basemap</keyword><keyword>imageryBaseMapsEarthCover</keyword><keyword>Landbase</keyword><keyword>Train Tracks</keyword><keyword>Railroad</keyword><keyword>Rail</keyword><keyword>Train</keyword><keyword>transportation</keyword><keyword>NYCMap</keyword></searchKeys><resConst><LegConsts><useLimit>See access and use constraints information.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Limited to use defined by the Department of Information Technology and Telecommunication, City of New York&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></dataLang><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</envirDesc><dataExt><geoEle><GeoBndBox><westBL>-74.254338</westBL><eastBL>-73.725548</eastBL><southBL>40.511999</southBL><northBL>40.915501</northBL></GeoBndBox></geoEle><vertEle><vertMinVal Sync="TRUE">-14.850000</vertMinVal><vertMaxVal Sync="TRUE">200.851600</vertMaxVal></vertEle></dataExt><dataExt><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-74.254338</westBL><eastBL Sync="TRUE">-73.725548</eastBL><northBL Sync="TRUE">40.915501</northBL><southBL Sync="TRUE">40.511999</southBL></GeoBndBox></geoEle></dataExt><tpCat><TopicCatCd value="018"/></tpCat><tpCat><TopicCatCd value="010"/></tpCat><tpCat><TopicCatCd value="017"/></tpCat></dataIdInfo><Binary><Enclosure><Descript>original metadata</Descript><Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="9463af9d21bf78d2758f0e10aabb43d7" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxwdWJkYXRl
+PjIwMTYwMjE5PC9wdWJkYXRlPg0KICAgICAgICA8dGl0bGU+UkFJTFJPQUQ8L3RpdGxlPg0KICAg
+ICAgICA8ZWRpdGlvbj4yMDE2IFBsYW5pbWV0cmljczwvZWRpdGlvbj4NCiAgICAgICAgPGdlb2Zv
+cm0+dmVjdG9yIGRpZ2l0YWwgZGF0YTwvZ2VvZm9ybT4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAg
+PC9jaXRhdGlvbj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+RGlnaXRhbCBwbGFu
+aW1ldHJpY3MgYXJlIGRlcml2ZWQgdXNpbmcgdGhlIHByb2R1Y3RzIGRlbGl2ZXJlZCB3aXRoIHRo
+ZSAyMDEwIE5ldyBZb3JrIFN0YXRld2lkZSBGbHlvdmVyLCB3aGljaCBpbmNsdWRlcyByYXcgaW1h
+Z2VyeSBjb2xsZWN0ZWQgdG8gc3VwcG9ydCB0aGUgZ2VuZXJhdGlvbiBvZiAwLjUgRnQgR3JvdW5k
+IFNhbXBsZSBEaXN0YW5jZSAoR1NEKSBuYXR1cmFsIGNvbG9yIGltYWdlcnkuIFRoZSBpbWFnZXMg
+d2VyZSBjYXB0dXJlZCB3aXRoIDgwJSBmb3J3YXJkIGxhcCBhbmQgc2lkZSBsYXAgdG8gc3VwcG9y
+dCAx4oCdPTEwMOKAmSBtYXBwaW5nIGFuZCBtZWV0IHRoZSBkaXN0b3J0aW9uIGZyZWUgcmVxdWly
+ZW1lbnRzIHdpdGhpbiBOZXcgWW9yayBDaXR5LiBQbGFuaW1ldHJpY3MgYXJlIGRldmVsb3BlZCB0
+byBtZWV0IEFtZXJpY2FuIFNvY2lldHkgZm9yIFBob3RvZ3JhbW1ldHJ5IGFuZCBSZW1vdGUgU2Vu
+c2luZyAoQVNQUlMpIENsYXNzIDEgKG9uZSkgaG9yaXpvbnRhbCBtYXBwaW5nIHN0YW5kYXJkcyBh
+bmQgQVNQUlMgdmVydGljYWwgQ2xhc3MgMiAodHdvKSBhY2N1cmFjeSBzcGVjaWZpY2F0aW9ucy4g
+UGxhbmltZXRyaWNzIGFyZSBkZWxpdmVyZWQgdmlhIGFuIEVTUkkgZ2VvZGF0YWJhc2UgaW4gTmV3
+IFlvcmsgU3RhdGUgUGxhbmUgQ29vcmRpbmF0ZXMsIExvbmcgSXNsYW5kIEVhc3QgWm9uZSwgTkFE
+ODMsIFVTIGZvb3QuPC9hYnN0cmFjdD4NCiAgICAgIDxwdXJwb3NlPk9uZSBvZiB0aGUgbWlzc2lv
+bnMgb2YgQ2l0eXdpZGUgR0lTIGlzIHRvIGRldmVsb3AsIHN1cHBvcnQgYW5kIGhvc3QgYW4gYWNj
+dXJhdGUgZGlnaXRhbCBtYXAgYW5kIGdlby1yZWZlcmVuY2VkIGRhdGEgYWxvbmcgd2l0aCBhc3Nv
+Y2lhdGVkIHRvb2xzIGFuZCBhcHBsaWNhdGlvbnMgdGhhdCBhbGxvdyBhbGwgQ2l0eSBhZ2VuY2ll
+cyB0byB1c2UgdGhlIHNwYXRpYWwgZGF0YSBjb2xsZWN0ZWQgYnkgbWFueSBDaXR5IGVudGl0aWVz
+LiAgVGhlIGRhdGEgaXMgdXRpbGl6ZWQgdG8gc3VwcG9ydCBDaXR5IG9wZXJhdGlvbnMsIGRhdGEg
+YW5hbHlzaXMsIHBvbGljeSBtYWtpbmcgYW5kIHB1YmxpYyBzYWZldHkuICBBIHByaW1hcnkgZ29h
+bCBpcyB0byBtYWludGFpbiB0aGUgYWNjdXJhY3kgYW5kIHF1YWxpdHkgb2YgdGhlIGJhc2UgZGF0
+YSB3aGljaCBpbmNsdWRlcyB0aGUgb3J0aG9waG90b2dyYXBoeSBhbmQgcGxhbmltZXRyaWNzLCBj
+b2xsZWN0aXZlbHkga25vd24gYXMgTllDIE1hcC4gVGhpcyBiYXNlIGlzIHRoZSBmb3VuZGF0aW9u
+IHVwb24gd2hpY2ggdmlydHVhbGx5IGFsbCBvdGhlciBHSVMgcmVsYXRpdmUgaW5mb3JtYXRpb24g
+d2l0aGluIHRoZSBDaXR5IG9mIE5ldyBZb3JrIGlzIGJ1aWx0LiBJbnN1cmluZyBpdHMgY29tcGxl
+dGVuZXNzIGFuZCBhY2N1cmFjeSBpcyBmdW5kYW1lbnRhbCB0byB0aGUgR3JvdXDigJlzIGNvcmUg
+bWlzc2lvbi4gVGhlIHBsYW5pbWV0cmljIGJhc2UgbGF5ZXJzIHdlcmUgdXBkYXRlZCBjaXR5d2lk
+ZSwgaW4gMjAxMSBiYXNlZCBvbiBvcnRob2ltYWdlcnkgY2FwdHVyZWQgaW4gMjAxMC4gPC9wdXJw
+b3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHNwZG9tPg0KICAgICAgPGJvdW5kaW5nPg0KICAg
+ICAgICA8d2VzdGJjPi03NC4yNTQzMzg8L3dlc3RiYz4NCiAgICAgICAgPGVhc3RiYz4tNzMuNzI1
+NTQ4PC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJjPjQwLjkxNTUwMTwvbm9ydGhiYz4NCiAgICAg
+ICAgPHNvdXRoYmM+NDAuNTExOTk5PC9zb3V0aGJjPg0KICAgICAgPC9ib3VuZGluZz4NCiAgICA8
+L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAgIDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+
+SVNPIDE5MTE1IFRvcGljIENhdGVnb3JpZXM8L3RoZW1la3Q+DQogICAgICAgIDx0aGVtZWtleT5p
+bWFnZXJ5QmFzZU1hcHNFYXJ0aENvdmVyPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PnN0
+cnVjdHVyZTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT50cmFuc3BvcnRhdGlvbjwvdGhl
+bWVrZXk+DQogICAgICA8L3RoZW1lPg0KICAgICAgPHRoZW1lPg0KICAgICAgICA8dGhlbWVrdD5O
+b25lPC90aGVtZWt0Pg0KICAgICAgICA8dGhlbWVrZXk+QmFzZW1hcDwvdGhlbWVrZXk+DQogICAg
+ICAgIDx0aGVtZWtleT5QbGFuaW1ldHJpYzwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5O
+WUNNYXA8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+TGFuZGJhc2U8L3RoZW1la2V5Pg0K
+ICAgICAgICA8dGhlbWVrZXk+UmFpbHJvYWQ8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+
+UmFpbDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5UcmFpbjwvdGhlbWVrZXk+DQogICAg
+ICAgIDx0aGVtZWtleT5UcmFpbiBUcmFja3M8L3RoZW1la2V5Pg0KICAgICAgPC90aGVtZT4NCiAg
+ICA8L2tleXdvcmRzPg0KICAgIDxhY2Njb25zdD5Ob25lPC9hY2Njb25zdD4NCiAgICA8dXNlY29u
+c3Q+TGltaXRlZCB0byB1c2UgZGVmaW5lZCBieSB0aGUgRGVwYXJ0bWVudCBvZiBJbmZvcm1hdGlv
+biBUZWNobm9sb2d5IGFuZCBUZWxlY29tbXVuaWNhdGlvbiwgQ2l0eSBvZiBOZXcgWW9yazwvdXNl
+Y29uc3Q+DQogICAgPHB0Y29udGFjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdw
+Pg0KICAgICAgICAgIDxjbnRvcmc+RG9JVFQgLSBDaXR5IG9mIE5ldyBZb3JrPC9jbnRvcmc+DQog
+ICAgICAgICAgPGNudHBlcj5Db2xpbiBSZWlsbHk8L2NudHBlcj4NCiAgICAgICAgPC9jbnRvcmdw
+Pg0KICAgICAgICA8Y250cG9zPkRpcmVjdG9yLCBDaXR5d2lkZSBHSVM8L2NudHBvcz4NCiAgICAg
+ICAgPGNudGFkZHI+DQogICAgICAgICAgPGFkZHJ0eXBlPm1haWxpbmc8L2FkZHJ0eXBlPg0KICAg
+ICAgICAgIDxhZGRyZXNzPjIgTWV0cm90ZWNoIENlbnRlcjwvYWRkcmVzcz4NCiAgICAgICAgICA8
+Y2l0eT5Ccm9va2x5bjwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+TmV3IFlvcms8L3N0YXRlPg0K
+ICAgICAgICAgIDxwb3N0YWw+MTEyMDE8L3Bvc3RhbD4NCiAgICAgICAgICA8Y291bnRyeT5VTklU
+RUQgU1RBVEVTPC9jb3VudHJ5Pg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxjbnRlbWFp
+bD5jcmVpbGx5QGRvaXR0Lm55Yy5nb3Y8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAg
+IDwvcHRjb250YWM+DQogICAgPG5hdGl2ZT5NaWNyb3NvZnQgV2luZG93cyA3IFZlcnNpb24gNi4x
+IChCdWlsZCA3NjAxKSBTZXJ2aWNlIFBhY2sgMTsgRXNyaSBBcmNHSVMgMTAuMi4wLjMzNDg8L25h
+dGl2ZT4NCiAgPC9pZGluZm8+DQogIDxzcGRvaW5mbz4NCiAgICA8ZGlyZWN0PlZlY3RvcjwvZGly
+ZWN0Pg0KICA8L3NwZG9pbmZvPg0KICA8c3ByZWY+DQogICAgPGhvcml6c3lzPg0KICAgICAgPHBs
+YW5hcj4NCiAgICAgICAgPHBsYW5jaT4NCiAgICAgICAgICA8cGxhbmNlPmNvb3JkaW5hdGUgcGFp
+cjwvcGxhbmNlPg0KICAgICAgICAgIDxjb29yZHJlcD4NCiAgICAgICAgICAgIDxhYnNyZXM+MC4w
+MDAzMjgwODMzMzMzMzMzMzM1PC9hYnNyZXM+DQogICAgICAgICAgICA8b3JkcmVzPjAuMDAwMzI4
+MDgzMzMzMzMzMzMzNTwvb3JkcmVzPg0KICAgICAgICAgIDwvY29vcmRyZXA+DQogICAgICAgICAg
+PHBsYW5kdT5mb290X3VzPC9wbGFuZHU+DQogICAgICAgIDwvcGxhbmNpPg0KICAgICAgPC9wbGFu
+YXI+DQogICAgICA8Z2VvZGV0aWM+DQogICAgICAgIDxob3JpemRuPkQgTm9ydGggQW1lcmljYW4g
+MTk4MzwvaG9yaXpkbj4NCiAgICAgICAgPGVsbGlwcz5HUlMgMTk4MDwvZWxsaXBzPg0KICAgICAg
+ICA8c2VtaWF4aXM+NjM3ODEzNy4wPC9zZW1pYXhpcz4NCiAgICAgICAgPGRlbmZsYXQ+Mjk4LjI1
+NzIyMjEwMTwvZGVuZmxhdD4NCiAgICAgIDwvZ2VvZGV0aWM+DQogICAgPC9ob3JpenN5cz4NCiAg
+PC9zcHJlZj4NCiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQgTmFtZT0iUkFJTFJPQUQiPg0KICAg
+ICAgPGVudHR5cD4NCiAgICAgICAgPGVudHR5cGw+UkFJTFJPQUQ8L2VudHR5cGw+DQogICAgICAg
+IDxlbnR0eXB0IFN5bmM9IlRSVUUiPkZlYXR1cmUgQ2xhc3M8L2VudHR5cHQ+DQogICAgICAgIDxl
+bnR0eXBjIFN5bmM9IlRSVUUiPjE0MzU2PC9lbnR0eXBjPg0KICAgICAgPC9lbnR0eXA+DQogICAg
+ICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk9CSkVDVElEPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dHJkZWY+SW50ZXJuYWwgZmVhdHVyZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0
+cmRlZnM+RVNSSTwvYXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRv
+bT5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkg
+Z2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgICAgPGF0dGFsaWFz
+IFN5bmM9IlRSVUUiPk9CSkVDVElEPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0eXBlIFN5bmM9
+IlRSVUUiPk9JRDwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0aCBTeW5jPSJUUlVFIj40PC9h
+dHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAg
+ICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQog
+ICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNIQVBFPC9hdHRybGFibD4NCiAgICAgICAg
+PGF0dHJkZWY+RmVhdHVyZSBnZW9tZXRyeS48L2F0dHJkZWY+DQogICAgICAgIDxhdHRyZGVmcz5F
+U1JJPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAgICAgICAgIDx1ZG9tPkNvb3Jk
+aW5hdGVzIGRlZmluaW5nIHRoZSBmZWF0dXJlcy48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+
+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5TSEFQRTwvYXR0YWxpYXM+DQogICAgICAg
+IDxhdHRydHlwZSBTeW5jPSJUUlVFIj5HZW9tZXRyeTwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3
+aWR0aCBTeW5jPSJUUlVFIj4wPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRS
+VUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2Nh
+bGU+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPk5BTUU8
+L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+TkFNRTwvYXR0YWxpYXM+
+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAg
+ICA8YXR0d2lkdGggU3luYz0iVFJVRSI+NTA8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMg
+U3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4w
+PC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxh
+Ymw+U09VUkNFX0lEPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNP
+VVJDRV9JRDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8
+L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQog
+ICAgICAgIDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNj
+YWxlIFN5bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgPC9hdHRyPg0KICAgICAgPGF0dHI+
+DQogICAgICAgIDxhdHRybGFibD5GRUFUVVJFX0NPREU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0
+YWxpYXMgU3luYz0iVFJVRSI+RkVBVFVSRV9DT0RFPC9hdHRhbGlhcz4NCiAgICAgICAgPGF0dHJ0
+eXBlIFN5bmM9IlRSVUUiPlNtYWxsSW50ZWdlcjwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3aWR0
+aCBTeW5jPSJUUlVFIj4yPC9hdHR3aWR0aD4NCiAgICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUi
+PjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2NhbGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+
+DQogICAgICA8L2F0dHI+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsPlNVQl9GRUFU
+VVJFX0NPREU8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+U1VCX0ZF
+QVRVUkVfQ09ERTwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5JbnRl
+Z2VyPC9hdHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjQ8L2F0dHdpZHRo
+Pg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxh
+dHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxh
+dHRyPg0KICAgICAgICA8YXR0cmxhYmw+U1RBVFVTPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFs
+aWFzIFN5bmM9IlRSVUUiPlNUQVRVUzwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5j
+PSJUUlVFIj5TdHJpbmc8L2F0dHJ0eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+
+MTY8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMgU3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+
+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRzY2FsZT4NCiAgICAgIDwvYXR0
+cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+U0hBUEVfTGVu
+Z3RoPC9hdHRybGFibD4NCiAgICAgICAgPGF0dGFsaWFzIFN5bmM9IlRSVUUiPlNIQVBFX0xlbmd0
+aDwvYXR0YWxpYXM+DQogICAgICAgIDxhdHRydHlwZSBTeW5jPSJUUlVFIj5Eb3VibGU8L2F0dHJ0
+eXBlPg0KICAgICAgICA8YXR0d2lkdGggU3luYz0iVFJVRSI+ODwvYXR0d2lkdGg+DQogICAgICAg
+IDxhdHByZWNpcyBTeW5jPSJUUlVFIj4wPC9hdHByZWNpcz4NCiAgICAgICAgPGF0dHNjYWxlIFN5
+bmM9IlRSVUUiPjA8L2F0dHNjYWxlPg0KICAgICAgICA8YXR0cmRlZiBTeW5jPSJUUlVFIj5MZW5n
+dGggb2YgZmVhdHVyZSBpbiBpbnRlcm5hbCB1bml0cy48L2F0dHJkZWY+DQogICAgICAgIDxhdHRy
+ZGVmcyBTeW5jPSJUUlVFIj5Fc3JpPC9hdHRyZGVmcz4NCiAgICAgICAgPGF0dHJkb212Pg0KICAg
+ICAgICAgIDx1ZG9tIFN5bmM9IlRSVUUiPlBvc2l0aXZlIHJlYWwgbnVtYmVycyB0aGF0IGFyZSBh
+dXRvbWF0aWNhbGx5IGdlbmVyYXRlZC48L3Vkb20+DQogICAgICAgIDwvYXR0cmRvbXY+DQogICAg
+ICA8L2F0dHI+DQogICAgICA8c3VidHlwZT4NCiAgICAgICAgPHN0bmFtZSBTeW5jPSJUUlVFIj5F
+bWJhbmttZW50IHJhaWxyb2FkPC9zdG5hbWU+DQogICAgICAgIDxzdGNvZGUgU3luYz0iVFJVRSI+
+MjQyMDwvc3Rjb2RlPg0KICAgICAgICA8c3RmaWVsZD4NCiAgICAgICAgICA8c3RmbGRubSBTeW5j
+PSJUUlVFIj5GRUFUVVJFX0NPREU8L3N0Zmxkbm0+DQogICAgICAgICAgPHN0ZmxkZHYgU3luYz0i
+VFJVRSI+MjQwMDwvc3RmbGRkdj4NCiAgICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAgIDxk
+b21uYW1lIFN5bmM9IlRSVUUiPmRSYWlscm9hZDwvZG9tbmFtZT4NCiAgICAgICAgICAgIDxkb21k
+ZXNjIFN5bmM9IlRSVUUiPkRvbWFpbiBmb3IgUmFpbHJvYWQ8L2RvbWRlc2M+DQogICAgICAgICAg
+ICA8ZG9tdHlwZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAgICAg
+IDxtcmd0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAgICAg
+ICA8c3BsdHR5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAgICAg
+ICAgICA8ZG9tZmxkdHAgU3luYz0iVFJVRSI+U21hbGxJbnRlZ2VyPC9kb21mbGR0cD4NCiAgICAg
+ICAgICA8L3N0ZmxkZGQ+DQogICAgICAgIDwvc3RmaWVsZD4NCiAgICAgICAgPHN0ZmllbGQ+DQog
+ICAgICAgICAgPHN0Zmxkbm0gU3luYz0iVFJVRSI+U1VCX0ZFQVRVUkVfQ09ERTwvc3RmbGRubT4N
+CiAgICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUiPmRS
+UkVtYmFya21lbnQ8L2RvbW5hbWU+DQogICAgICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5E
+b21haW4gZm9yIEVtYmFya21lbnQgUmFpbHJvYWQ8L2RvbWRlc2M+DQogICAgICAgICAgICA8ZG9t
+dHlwZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAgICAgIDxtcmd0
+eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAgICAgICA8c3Bs
+dHR5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAgICAgICAgICA8
+ZG9tZmxkdHAgU3luYz0iVFJVRSI+SW50ZWdlcjwvZG9tZmxkdHA+DQogICAgICAgICAgPC9zdGZs
+ZGRkPg0KICAgICAgICA8L3N0ZmllbGQ+DQogICAgICAgIDxzdGZpZWxkPg0KICAgICAgICAgIDxz
+dGZsZG5tIFN5bmM9IlRSVUUiPlNUQVRVUzwvc3RmbGRubT4NCiAgICAgICAgICA8c3RmbGRkZD4N
+CiAgICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUiPmRTdGF0dXM8L2RvbW5hbWU+DQogICAg
+ICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIEZlYXR1cmUgVXBkYXRlIFN0
+YXR1czwvZG9tZGVzYz4NCiAgICAgICAgICAgIDxkb210eXBlIFN5bmM9IlRSVUUiPkNvZGVkIFZh
+bHVlPC9kb210eXBlPg0KICAgICAgICAgICAgPG1yZ3R5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2
+YWx1ZTwvbXJndHlwZT4NCiAgICAgICAgICAgIDxzcGx0dHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0
+IHZhbHVlPC9zcGx0dHlwZT4NCiAgICAgICAgICAgIDxkb21mbGR0cCBTeW5jPSJUUlVFIj5TdHJp
+bmc8L2RvbWZsZHRwPg0KICAgICAgICAgIDwvc3RmbGRkZD4NCiAgICAgICAgPC9zdGZpZWxkPg0K
+ICAgICAgPC9zdWJ0eXBlPg0KICAgICAgPHN1YnR5cGU+DQogICAgICAgIDxzdG5hbWUgU3luYz0i
+VFJVRSI+UmFpbHJvYWQ8L3N0bmFtZT4NCiAgICAgICAgPHN0Y29kZSBTeW5jPSJUUlVFIj4yNDAw
+PC9zdGNvZGU+DQogICAgICAgIDxzdGZpZWxkPg0KICAgICAgICAgIDxzdGZsZG5tIFN5bmM9IlRS
+VUUiPkZFQVRVUkVfQ09ERTwvc3RmbGRubT4NCiAgICAgICAgICA8c3RmbGRkdiBTeW5jPSJUUlVF
+Ij4yNDAwPC9zdGZsZGR2Pg0KICAgICAgICAgIDxzdGZsZGRkPg0KICAgICAgICAgICAgPGRvbW5h
+bWUgU3luYz0iVFJVRSI+ZFJhaWxyb2FkPC9kb21uYW1lPg0KICAgICAgICAgICAgPGRvbWRlc2Mg
+U3luYz0iVFJVRSI+RG9tYWluIGZvciBSYWlscm9hZDwvZG9tZGVzYz4NCiAgICAgICAgICAgIDxk
+b210eXBlIFN5bmM9IlRSVUUiPkNvZGVkIFZhbHVlPC9kb210eXBlPg0KICAgICAgICAgICAgPG1y
+Z3R5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvbXJndHlwZT4NCiAgICAgICAgICAgIDxz
+cGx0dHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9zcGx0dHlwZT4NCiAgICAgICAgICAg
+IDxkb21mbGR0cCBTeW5jPSJUUlVFIj5TbWFsbEludGVnZXI8L2RvbWZsZHRwPg0KICAgICAgICAg
+IDwvc3RmbGRkZD4NCiAgICAgICAgPC9zdGZpZWxkPg0KICAgICAgICA8c3RmaWVsZD4NCiAgICAg
+ICAgICA8c3RmbGRubSBTeW5jPSJUUlVFIj5TVUJfRkVBVFVSRV9DT0RFPC9zdGZsZG5tPg0KICAg
+ICAgICAgIDxzdGZsZGRkPg0KICAgICAgICAgICAgPGRvbW5hbWUgU3luYz0iVFJVRSI+ZFJSUmFp
+bHJvYWQ8L2RvbW5hbWU+DQogICAgICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4g
+Zm9yIFJhaWxyb2FkIChzdWIgZmVhdHVyZSk8L2RvbWRlc2M+DQogICAgICAgICAgICA8ZG9tdHlw
+ZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAgICAgIDxtcmd0eXBl
+IFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAgICAgICA8c3BsdHR5
+cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAgICAgICAgICA8ZG9t
+ZmxkdHAgU3luYz0iVFJVRSI+SW50ZWdlcjwvZG9tZmxkdHA+DQogICAgICAgICAgPC9zdGZsZGRk
+Pg0KICAgICAgICA8L3N0ZmllbGQ+DQogICAgICAgIDxzdGZpZWxkPg0KICAgICAgICAgIDxzdGZs
+ZG5tIFN5bmM9IlRSVUUiPlNUQVRVUzwvc3RmbGRubT4NCiAgICAgICAgICA8c3RmbGRkZD4NCiAg
+ICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUiPmRTdGF0dXM8L2RvbW5hbWU+DQogICAgICAg
+ICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIEZlYXR1cmUgVXBkYXRlIFN0YXR1
+czwvZG9tZGVzYz4NCiAgICAgICAgICAgIDxkb210eXBlIFN5bmM9IlRSVUUiPkNvZGVkIFZhbHVl
+PC9kb210eXBlPg0KICAgICAgICAgICAgPG1yZ3R5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1
+ZTwvbXJndHlwZT4NCiAgICAgICAgICAgIDxzcGx0dHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZh
+bHVlPC9zcGx0dHlwZT4NCiAgICAgICAgICAgIDxkb21mbGR0cCBTeW5jPSJUUlVFIj5TdHJpbmc8
+L2RvbWZsZHRwPg0KICAgICAgICAgIDwvc3RmbGRkZD4NCiAgICAgICAgPC9zdGZpZWxkPg0KICAg
+ICAgPC9zdWJ0eXBlPg0KICAgICAgPHN1YnR5cGU+DQogICAgICAgIDxzdG5hbWUgU3luYz0iVFJV
+RSI+VmlhZHVjdCBjZW50ZXJsaW5lPC9zdG5hbWU+DQogICAgICAgIDxzdGNvZGUgU3luYz0iVFJV
+RSI+MjQzMDwvc3Rjb2RlPg0KICAgICAgICA8c3RmaWVsZD4NCiAgICAgICAgICA8c3RmbGRubSBT
+eW5jPSJUUlVFIj5GRUFUVVJFX0NPREU8L3N0Zmxkbm0+DQogICAgICAgICAgPHN0ZmxkZHYgU3lu
+Yz0iVFJVRSI+MjQwMDwvc3RmbGRkdj4NCiAgICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAg
+IDxkb21uYW1lIFN5bmM9IlRSVUUiPmRSYWlscm9hZDwvZG9tbmFtZT4NCiAgICAgICAgICAgIDxk
+b21kZXNjIFN5bmM9IlRSVUUiPkRvbWFpbiBmb3IgUmFpbHJvYWQ8L2RvbWRlc2M+DQogICAgICAg
+ICAgICA8ZG9tdHlwZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAg
+ICAgIDxtcmd0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAg
+ICAgICA8c3BsdHR5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAg
+ICAgICAgICA8ZG9tZmxkdHAgU3luYz0iVFJVRSI+U21hbGxJbnRlZ2VyPC9kb21mbGR0cD4NCiAg
+ICAgICAgICA8L3N0ZmxkZGQ+DQogICAgICAgIDwvc3RmaWVsZD4NCiAgICAgICAgPHN0ZmllbGQ+
+DQogICAgICAgICAgPHN0Zmxkbm0gU3luYz0iVFJVRSI+U1VCX0ZFQVRVUkVfQ09ERTwvc3RmbGRu
+bT4NCiAgICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUi
+PmRSUlZpYWR1Y3RDZW50ZXJsaW5lPC9kb21uYW1lPg0KICAgICAgICAgICAgPGRvbWRlc2MgU3lu
+Yz0iVFJVRSI+RG9tYWluIGZvciBWaWFkdWN0IENlbnRlcmxpbmUgUmFpbHJvYWQ8L2RvbWRlc2M+
+DQogICAgICAgICAgICA8ZG9tdHlwZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4N
+CiAgICAgICAgICAgIDxtcmd0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+
+DQogICAgICAgICAgICA8c3BsdHR5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5
+cGU+DQogICAgICAgICAgICA8ZG9tZmxkdHAgU3luYz0iVFJVRSI+SW50ZWdlcjwvZG9tZmxkdHA+
+DQogICAgICAgICAgPC9zdGZsZGRkPg0KICAgICAgICA8L3N0ZmllbGQ+DQogICAgICAgIDxzdGZp
+ZWxkPg0KICAgICAgICAgIDxzdGZsZG5tIFN5bmM9IlRSVUUiPlNUQVRVUzwvc3RmbGRubT4NCiAg
+ICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUiPmRTdGF0
+dXM8L2RvbW5hbWU+DQogICAgICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9y
+IEZlYXR1cmUgVXBkYXRlIFN0YXR1czwvZG9tZGVzYz4NCiAgICAgICAgICAgIDxkb210eXBlIFN5
+bmM9IlRSVUUiPkNvZGVkIFZhbHVlPC9kb210eXBlPg0KICAgICAgICAgICAgPG1yZ3R5cGUgU3lu
+Yz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvbXJndHlwZT4NCiAgICAgICAgICAgIDxzcGx0dHlwZSBT
+eW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9zcGx0dHlwZT4NCiAgICAgICAgICAgIDxkb21mbGR0
+cCBTeW5jPSJUUlVFIj5TdHJpbmc8L2RvbWZsZHRwPg0KICAgICAgICAgIDwvc3RmbGRkZD4NCiAg
+ICAgICAgPC9zdGZpZWxkPg0KICAgICAgPC9zdWJ0eXBlPg0KICAgICAgPHN1YnR5cGU+DQogICAg
+ICAgIDxzdG5hbWUgU3luYz0iVFJVRSI+UmFpbHdheSBmZW5jZTwvc3RuYW1lPg0KICAgICAgICA8
+c3Rjb2RlIFN5bmM9IlRSVUUiPjI0NTA8L3N0Y29kZT4NCiAgICAgICAgPHN0ZmllbGQ+DQogICAg
+ICAgICAgPHN0Zmxkbm0gU3luYz0iVFJVRSI+RkVBVFVSRV9DT0RFPC9zdGZsZG5tPg0KICAgICAg
+ICAgIDxzdGZsZGR2IFN5bmM9IlRSVUUiPjI0MDA8L3N0ZmxkZHY+DQogICAgICAgICAgPHN0Zmxk
+ZGQ+DQogICAgICAgICAgICA8ZG9tbmFtZSBTeW5jPSJUUlVFIj5kUmFpbHJvYWQ8L2RvbW5hbWU+
+DQogICAgICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIFJhaWxyb2FkPC9k
+b21kZXNjPg0KICAgICAgICAgICAgPGRvbXR5cGUgU3luYz0iVFJVRSI+Q29kZWQgVmFsdWU8L2Rv
+bXR5cGU+DQogICAgICAgICAgICA8bXJndHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9t
+cmd0eXBlPg0KICAgICAgICAgICAgPHNwbHR0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8
+L3NwbHR0eXBlPg0KICAgICAgICAgICAgPGRvbWZsZHRwIFN5bmM9IlRSVUUiPlNtYWxsSW50ZWdl
+cjwvZG9tZmxkdHA+DQogICAgICAgICAgPC9zdGZsZGRkPg0KICAgICAgICA8L3N0ZmllbGQ+DQog
+ICAgICAgIDxzdGZpZWxkPg0KICAgICAgICAgIDxzdGZsZG5tIFN5bmM9IlRSVUUiPlNVQl9GRUFU
+VVJFX0NPREU8L3N0Zmxkbm0+DQogICAgICAgICAgPHN0ZmxkZGQ+DQogICAgICAgICAgICA8ZG9t
+bmFtZSBTeW5jPSJUUlVFIj5kUlJGZW5jZTwvZG9tbmFtZT4NCiAgICAgICAgICAgIDxkb21kZXNj
+IFN5bmM9IlRSVUUiPkRvbWFpbiBmb3IgUmFpbHdheSBGZW5jZTwvZG9tZGVzYz4NCiAgICAgICAg
+ICAgIDxkb210eXBlIFN5bmM9IlRSVUUiPkNvZGVkIFZhbHVlPC9kb210eXBlPg0KICAgICAgICAg
+ICAgPG1yZ3R5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvbXJndHlwZT4NCiAgICAgICAg
+ICAgIDxzcGx0dHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9zcGx0dHlwZT4NCiAgICAg
+ICAgICAgIDxkb21mbGR0cCBTeW5jPSJUUlVFIj5JbnRlZ2VyPC9kb21mbGR0cD4NCiAgICAgICAg
+ICA8L3N0ZmxkZGQ+DQogICAgICAgIDwvc3RmaWVsZD4NCiAgICAgICAgPHN0ZmllbGQ+DQogICAg
+ICAgICAgPHN0Zmxkbm0gU3luYz0iVFJVRSI+U1RBVFVTPC9zdGZsZG5tPg0KICAgICAgICAgIDxz
+dGZsZGRkPg0KICAgICAgICAgICAgPGRvbW5hbWUgU3luYz0iVFJVRSI+ZFN0YXR1czwvZG9tbmFt
+ZT4NCiAgICAgICAgICAgIDxkb21kZXNjIFN5bmM9IlRSVUUiPkRvbWFpbiBmb3IgRmVhdHVyZSBV
+cGRhdGUgU3RhdHVzPC9kb21kZXNjPg0KICAgICAgICAgICAgPGRvbXR5cGUgU3luYz0iVFJVRSI+
+Q29kZWQgVmFsdWU8L2RvbXR5cGU+DQogICAgICAgICAgICA8bXJndHlwZSBTeW5jPSJUUlVFIj5E
+ZWZhdWx0IHZhbHVlPC9tcmd0eXBlPg0KICAgICAgICAgICAgPHNwbHR0eXBlIFN5bmM9IlRSVUUi
+PkRlZmF1bHQgdmFsdWU8L3NwbHR0eXBlPg0KICAgICAgICAgICAgPGRvbWZsZHRwIFN5bmM9IlRS
+VUUiPlN0cmluZzwvZG9tZmxkdHA+DQogICAgICAgICAgPC9zdGZsZGRkPg0KICAgICAgICA8L3N0
+ZmllbGQ+DQogICAgICA8L3N1YnR5cGU+DQogICAgICA8c3VidHlwZT4NCiAgICAgICAgPHN0bmFt
+ZSBTeW5jPSJUUlVFIj5FbGV2YXRlZCByYWlscm9hZDwvc3RuYW1lPg0KICAgICAgICA8c3Rjb2Rl
+IFN5bmM9IlRSVUUiPjI0MTA8L3N0Y29kZT4NCiAgICAgICAgPHN0ZmllbGQ+DQogICAgICAgICAg
+PHN0Zmxkbm0gU3luYz0iVFJVRSI+RkVBVFVSRV9DT0RFPC9zdGZsZG5tPg0KICAgICAgICAgIDxz
+dGZsZGR2IFN5bmM9IlRSVUUiPjI0MDA8L3N0ZmxkZHY+DQogICAgICAgICAgPHN0ZmxkZGQ+DQog
+ICAgICAgICAgICA8ZG9tbmFtZSBTeW5jPSJUUlVFIj5kUmFpbHJvYWQ8L2RvbW5hbWU+DQogICAg
+ICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIFJhaWxyb2FkPC9kb21kZXNj
+Pg0KICAgICAgICAgICAgPGRvbXR5cGUgU3luYz0iVFJVRSI+Q29kZWQgVmFsdWU8L2RvbXR5cGU+
+DQogICAgICAgICAgICA8bXJndHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9tcmd0eXBl
+Pg0KICAgICAgICAgICAgPHNwbHR0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L3NwbHR0
+eXBlPg0KICAgICAgICAgICAgPGRvbWZsZHRwIFN5bmM9IlRSVUUiPlNtYWxsSW50ZWdlcjwvZG9t
+ZmxkdHA+DQogICAgICAgICAgPC9zdGZsZGRkPg0KICAgICAgICA8L3N0ZmllbGQ+DQogICAgICAg
+IDxzdGZpZWxkPg0KICAgICAgICAgIDxzdGZsZG5tIFN5bmM9IlRSVUUiPlNVQl9GRUFUVVJFX0NP
+REU8L3N0Zmxkbm0+DQogICAgICAgICAgPHN0ZmxkZGQ+DQogICAgICAgICAgICA8ZG9tbmFtZSBT
+eW5jPSJUUlVFIj5kUlJFbGV2YXRlZDwvZG9tbmFtZT4NCiAgICAgICAgICAgIDxkb21kZXNjIFN5
+bmM9IlRSVUUiPkRvbWFpbiBmb3IgRWxldmF0ZWQgUmFpbHJvYWQ8L2RvbWRlc2M+DQogICAgICAg
+ICAgICA8ZG9tdHlwZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAg
+ICAgIDxtcmd0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAg
+ICAgICA8c3BsdHR5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAg
+ICAgICAgICA8ZG9tZmxkdHAgU3luYz0iVFJVRSI+SW50ZWdlcjwvZG9tZmxkdHA+DQogICAgICAg
+ICAgPC9zdGZsZGRkPg0KICAgICAgICA8L3N0ZmllbGQ+DQogICAgICAgIDxzdGZpZWxkPg0KICAg
+ICAgICAgIDxzdGZsZG5tIFN5bmM9IlRSVUUiPlNUQVRVUzwvc3RmbGRubT4NCiAgICAgICAgICA8
+c3RmbGRkZD4NCiAgICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUiPmRTdGF0dXM8L2RvbW5h
+bWU+DQogICAgICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIEZlYXR1cmUg
+VXBkYXRlIFN0YXR1czwvZG9tZGVzYz4NCiAgICAgICAgICAgIDxkb210eXBlIFN5bmM9IlRSVUUi
+PkNvZGVkIFZhbHVlPC9kb210eXBlPg0KICAgICAgICAgICAgPG1yZ3R5cGUgU3luYz0iVFJVRSI+
+RGVmYXVsdCB2YWx1ZTwvbXJndHlwZT4NCiAgICAgICAgICAgIDxzcGx0dHlwZSBTeW5jPSJUUlVF
+Ij5EZWZhdWx0IHZhbHVlPC9zcGx0dHlwZT4NCiAgICAgICAgICAgIDxkb21mbGR0cCBTeW5jPSJU
+UlVFIj5TdHJpbmc8L2RvbWZsZHRwPg0KICAgICAgICAgIDwvc3RmbGRkZD4NCiAgICAgICAgPC9z
+dGZpZWxkPg0KICAgICAgPC9zdWJ0eXBlPg0KICAgICAgPHN1YnR5cGU+DQogICAgICAgIDxzdG5h
+bWUgU3luYz0iVFJVRSI+QWJhbmRvbmVkIHJhaWxyb2FkPC9zdG5hbWU+DQogICAgICAgIDxzdGNv
+ZGUgU3luYz0iVFJVRSI+MjQ2NTwvc3Rjb2RlPg0KICAgICAgICA8c3RmaWVsZD4NCiAgICAgICAg
+ICA8c3RmbGRubSBTeW5jPSJUUlVFIj5GRUFUVVJFX0NPREU8L3N0Zmxkbm0+DQogICAgICAgICAg
+PHN0ZmxkZHYgU3luYz0iVFJVRSI+MjQwMDwvc3RmbGRkdj4NCiAgICAgICAgICA8c3RmbGRkZD4N
+CiAgICAgICAgICAgIDxkb21uYW1lIFN5bmM9IlRSVUUiPmRSYWlscm9hZDwvZG9tbmFtZT4NCiAg
+ICAgICAgICAgIDxkb21kZXNjIFN5bmM9IlRSVUUiPkRvbWFpbiBmb3IgUmFpbHJvYWQ8L2RvbWRl
+c2M+DQogICAgICAgICAgICA8ZG9tdHlwZSBTeW5jPSJUUlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlw
+ZT4NCiAgICAgICAgICAgIDxtcmd0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5
+cGU+DQogICAgICAgICAgICA8c3BsdHR5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3Bs
+dHR5cGU+DQogICAgICAgICAgICA8ZG9tZmxkdHAgU3luYz0iVFJVRSI+U21hbGxJbnRlZ2VyPC9k
+b21mbGR0cD4NCiAgICAgICAgICA8L3N0ZmxkZGQ+DQogICAgICAgIDwvc3RmaWVsZD4NCiAgICAg
+ICAgPHN0ZmllbGQ+DQogICAgICAgICAgPHN0Zmxkbm0gU3luYz0iVFJVRSI+U1VCX0ZFQVRVUkVf
+Q09ERTwvc3RmbGRubT4NCiAgICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAgIDxkb21uYW1l
+IFN5bmM9IlRSVUUiPmRSUkFiYW5kb25lZDwvZG9tbmFtZT4NCiAgICAgICAgICAgIDxkb21kZXNj
+IFN5bmM9IlRSVUUiPkRvbWFpbiBmb3IgQWJhbmRvbmVkIFJhaWxyYW9kPC9kb21kZXNjPg0KICAg
+ICAgICAgICAgPGRvbXR5cGUgU3luYz0iVFJVRSI+Q29kZWQgVmFsdWU8L2RvbXR5cGU+DQogICAg
+ICAgICAgICA8bXJndHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9tcmd0eXBlPg0KICAg
+ICAgICAgICAgPHNwbHR0eXBlIFN5bmM9IlRSVUUiPkRlZmF1bHQgdmFsdWU8L3NwbHR0eXBlPg0K
+ICAgICAgICAgICAgPGRvbWZsZHRwIFN5bmM9IlRSVUUiPkludGVnZXI8L2RvbWZsZHRwPg0KICAg
+ICAgICAgIDwvc3RmbGRkZD4NCiAgICAgICAgPC9zdGZpZWxkPg0KICAgICAgICA8c3RmaWVsZD4N
+CiAgICAgICAgICA8c3RmbGRubSBTeW5jPSJUUlVFIj5TVEFUVVM8L3N0Zmxkbm0+DQogICAgICAg
+ICAgPHN0ZmxkZGQ+DQogICAgICAgICAgICA8ZG9tbmFtZSBTeW5jPSJUUlVFIj5kU3RhdHVzPC9k
+b21uYW1lPg0KICAgICAgICAgICAgPGRvbWRlc2MgU3luYz0iVFJVRSI+RG9tYWluIGZvciBGZWF0
+dXJlIFVwZGF0ZSBTdGF0dXM8L2RvbWRlc2M+DQogICAgICAgICAgICA8ZG9tdHlwZSBTeW5jPSJU
+UlVFIj5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAgICAgIDxtcmd0eXBlIFN5bmM9IlRS
+VUUiPkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAgICAgICA8c3BsdHR5cGUgU3luYz0i
+VFJVRSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAgICAgICAgICA8ZG9tZmxkdHAgU3lu
+Yz0iVFJVRSI+U3RyaW5nPC9kb21mbGR0cD4NCiAgICAgICAgICA8L3N0ZmxkZGQ+DQogICAgICAg
+IDwvc3RmaWVsZD4NCiAgICAgIDwvc3VidHlwZT4NCiAgICAgIDxzdWJ0eXBlPg0KICAgICAgICA8
+c3RuYW1lIFN5bmM9IlRSVUUiPk9wZW4gY3V0IGRlcHJlc3Npb24gcmFpbHJvYWQ8L3N0bmFtZT4N
+CiAgICAgICAgPHN0Y29kZSBTeW5jPSJUUlVFIj4yNDQwPC9zdGNvZGU+DQogICAgICAgIDxzdGZp
+ZWxkPg0KICAgICAgICAgIDxzdGZsZG5tIFN5bmM9IlRSVUUiPkZFQVRVUkVfQ09ERTwvc3RmbGRu
+bT4NCiAgICAgICAgICA8c3RmbGRkdiBTeW5jPSJUUlVFIj4yNDAwPC9zdGZsZGR2Pg0KICAgICAg
+ICAgIDxzdGZsZGRkPg0KICAgICAgICAgICAgPGRvbW5hbWUgU3luYz0iVFJVRSI+ZFJhaWxyb2Fk
+PC9kb21uYW1lPg0KICAgICAgICAgICAgPGRvbWRlc2MgU3luYz0iVFJVRSI+RG9tYWluIGZvciBS
+YWlscm9hZDwvZG9tZGVzYz4NCiAgICAgICAgICAgIDxkb210eXBlIFN5bmM9IlRSVUUiPkNvZGVk
+IFZhbHVlPC9kb210eXBlPg0KICAgICAgICAgICAgPG1yZ3R5cGUgU3luYz0iVFJVRSI+RGVmYXVs
+dCB2YWx1ZTwvbXJndHlwZT4NCiAgICAgICAgICAgIDxzcGx0dHlwZSBTeW5jPSJUUlVFIj5EZWZh
+dWx0IHZhbHVlPC9zcGx0dHlwZT4NCiAgICAgICAgICAgIDxkb21mbGR0cCBTeW5jPSJUUlVFIj5T
+bWFsbEludGVnZXI8L2RvbWZsZHRwPg0KICAgICAgICAgIDwvc3RmbGRkZD4NCiAgICAgICAgPC9z
+dGZpZWxkPg0KICAgICAgICA8c3RmaWVsZD4NCiAgICAgICAgICA8c3RmbGRubSBTeW5jPSJUUlVF
+Ij5TVUJfRkVBVFVSRV9DT0RFPC9zdGZsZG5tPg0KICAgICAgICAgIDxzdGZsZGRkPg0KICAgICAg
+ICAgICAgPGRvbW5hbWUgU3luYz0iVFJVRSI+ZFJST3BlbkN1dERlcHJlc3M8L2RvbW5hbWU+DQog
+ICAgICAgICAgICA8ZG9tZGVzYyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIE9wZW4gQ3V0IERlcHJl
+c3Npb24gUmFpbHJvYWQ8L2RvbWRlc2M+DQogICAgICAgICAgICA8ZG9tdHlwZSBTeW5jPSJUUlVF
+Ij5Db2RlZCBWYWx1ZTwvZG9tdHlwZT4NCiAgICAgICAgICAgIDxtcmd0eXBlIFN5bmM9IlRSVUUi
+PkRlZmF1bHQgdmFsdWU8L21yZ3R5cGU+DQogICAgICAgICAgICA8c3BsdHR5cGUgU3luYz0iVFJV
+RSI+RGVmYXVsdCB2YWx1ZTwvc3BsdHR5cGU+DQogICAgICAgICAgICA8ZG9tZmxkdHAgU3luYz0i
+VFJVRSI+SW50ZWdlcjwvZG9tZmxkdHA+DQogICAgICAgICAgPC9zdGZsZGRkPg0KICAgICAgICA8
+L3N0ZmllbGQ+DQogICAgICAgIDxzdGZpZWxkPg0KICAgICAgICAgIDxzdGZsZG5tIFN5bmM9IlRS
+VUUiPlNUQVRVUzwvc3RmbGRubT4NCiAgICAgICAgICA8c3RmbGRkZD4NCiAgICAgICAgICAgIDxk
+b21uYW1lIFN5bmM9IlRSVUUiPmRTdGF0dXM8L2RvbW5hbWU+DQogICAgICAgICAgICA8ZG9tZGVz
+YyBTeW5jPSJUUlVFIj5Eb21haW4gZm9yIEZlYXR1cmUgVXBkYXRlIFN0YXR1czwvZG9tZGVzYz4N
+CiAgICAgICAgICAgIDxkb210eXBlIFN5bmM9IlRSVUUiPkNvZGVkIFZhbHVlPC9kb210eXBlPg0K
+ICAgICAgICAgICAgPG1yZ3R5cGUgU3luYz0iVFJVRSI+RGVmYXVsdCB2YWx1ZTwvbXJndHlwZT4N
+CiAgICAgICAgICAgIDxzcGx0dHlwZSBTeW5jPSJUUlVFIj5EZWZhdWx0IHZhbHVlPC9zcGx0dHlw
+ZT4NCiAgICAgICAgICAgIDxkb21mbGR0cCBTeW5jPSJUUlVFIj5TdHJpbmc8L2RvbWZsZHRwPg0K
+ICAgICAgICAgIDwvc3RmbGRkZD4NCiAgICAgICAgPC9zdGZpZWxkPg0KICAgICAgPC9zdWJ0eXBl
+Pg0KICAgIDwvZGV0YWlsZWQ+DQogIDwvZWFpbmZvPg0KICA8ZGlzdGluZm8+DQogICAgPGRpc3Rs
+aWFiPlNlZSBhY2Nlc3MgYW5kIHVzZSBjb25zdHJhaW50cyBpbmZvcm1hdGlvbi48L2Rpc3RsaWFi
+Pg0KICA8L2Rpc3RpbmZvPg0KICA8bWV0YWluZm8+DQogICAgPG1ldGQ+MjAxNjAyMTk8L21ldGQ+
+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdlb3NwYXRp
+YWwgTWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21l
+dHN0ZHY+DQogICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICA8L21ldGFpbmZvPg0KICA8
+RXNyaT4NCiAgICA8U3luY0RhdGU+MjAxNjAyMjI8L1N5bmNEYXRlPg0KICAgIDxTeW5jVGltZT4w
+OTIwMjYwMDwvU3luY1RpbWU+DQogICAgPE1vZERhdGU+MjAxNjAyMjI8L01vZERhdGU+DQogICAg
+PE1vZFRpbWU+MDkyMDI2MDA8L01vZFRpbWU+DQogIDwvRXNyaT4NCjwvbWV0YWRhdGE+</Data></Enclosure></Binary><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="2263" Sync="TRUE"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">5.3(9.0.0)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="Rail1"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo></metadata>
