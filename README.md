@@ -1,5 +1,7 @@
-# Term Project: CSCL Map Creation Tool
+# CSCL Map Creation Tool
 Created by Erika Kamptner
+
+A version of this project was adapted for use for the NYC DoITT GIS team to allow proper SDE connections. 
 
 The CSCL Map Creation tool is intended to create a map with New York City's City Street Centerline dataset (CSCL) elements. This repository includes the following:
 
